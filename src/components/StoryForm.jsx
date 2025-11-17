@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Child, Palette, Languages } from "lucide-react";
 
 export default function StoryForm({ onSubmit, loading }) {
   const [child_name, setName] = useState("Léna");
